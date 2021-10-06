@@ -22,7 +22,12 @@ public class MainActivity extends AppCompatActivity {
         Person person = new Person("Persona", 20);
         String tvOneText = String.valueOf(person.printNumbers());
         binding.textViewOne.setText(tvOneText);
-//        TextView tv: TextView = findViewById(R.id.text_view).text = person.printNumbers();
+
+        String tvTwoText = String.valueOf(person.countFruits());
+        binding.textViewTwo.setText(tvTwoText);
+
+        String tvThreeText = String.valueOf(person.countC());
+        binding.textViewThree.setText(tvThreeText);
 
     }
 }

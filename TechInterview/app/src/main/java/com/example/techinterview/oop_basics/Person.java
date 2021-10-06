@@ -32,6 +32,28 @@ public class Person {
         }
         return a;
     }
+
+    String[] fruits = new String[] { "Orange", "Apple", "Pear", "Strawberry" };
+    int b = 0;
+    public int countFruits(){
+        for (String fruit : fruits) {
+            b += 1;
+        }
+        return b;
+    }
+
+    int c = 0;
+    public int countC() {
+        int count = 5;
+        while (count > 0) {
+            c++;
+            count--;
+        }
+        return c;
+    }
+
+
+
 }
 
 // Encapsulation - making sure that "sensitive" data is hidden from users.
