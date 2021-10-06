@@ -24,6 +24,14 @@ public class Person {
         name = constructorName;
         age = constructorAge;
     }
+
+    public int printNumbers() {
+        int a = 9;
+        for(int i=1; i<11; i++){
+            a =+ i;
+        }
+        return a;
+    }
 }
 
 // Encapsulation - making sure that "sensitive" data is hidden from users.
